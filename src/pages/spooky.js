@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Icon } from '@iconify/react';
 import { Link} from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 // styles
 
@@ -17,6 +18,14 @@ const Spooky = () => {
           className="h-16 bg-white/50 w-16 shadow-lg shadow-blue-400 rounded-xl p "
           icon="mdi:home" color="000000" />
        </Link></div>
+       <div  className=" fixed p-2 h-16 bg-white/50 w-16 shadow-lg shadow-blue-400 rounded-xl ml-2 bottom-0 right-2 mb-8 ">
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/mentasuave01">
+          <StaticImage
+            src="../images/mentasuave01.png"
+            alt="mentasuave01"
+          />
+        </a>
+        </div>
       
       
       <div className="
@@ -43,7 +52,7 @@ const Spooky = () => {
           icon="mdi:earth" color="white" />
         </div></a>
 
-        <a target="_blank" rel="noreferrer" className="flex items-center justify-center "  href="https://media.discordapp.net/attachments/915337478930571284/915357738119331880/unknown.png?width=842&height=455 "> 
+        <a target="_blank" rel="noreferrer" className="flex items-center justify-center "  href="https://media.discordapp.net/attachments/915337478930571284/915357738119331880/unknown.png "> 
         <div id="cookies" className="
         cursor-pointer
         bg-green-400

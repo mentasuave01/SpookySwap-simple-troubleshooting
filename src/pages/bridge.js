@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Icon } from '@iconify/react';
 import { Link} from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 // styles
 
@@ -17,6 +18,14 @@ const Bridge = () => {
           className="h-16 bg-white/50 w-16 shadow-lg shadow-blue-400 rounded-xl p "
           icon="mdi:home" color="000000" />
        </Link></div>
+       <div  className=" fixed p-2 h-16 bg-white/50 w-16 shadow-lg shadow-blue-400 rounded-xl ml-2 bottom-0 right-2 mb-8 ">
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/mentasuave01">
+          <StaticImage
+            src="../images/mentasuave01.png"
+            alt="mentasuave01"
+          />
+        </a>
+        </div>
       
       
       <div className="
@@ -37,7 +46,7 @@ const Bridge = () => {
         flex flex-col justify-center items-center 
         font-bold text-xl text-center p-2
         ">
-          BRIDGE taking too long or tokens didn't arrived
+          Tokens didn't arrive
           <Icon 
           className="h-16 w-16 mt-5 "
           icon="mdi:clock-alert-outline" color="white" />
