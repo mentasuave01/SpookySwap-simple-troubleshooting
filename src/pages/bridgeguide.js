@@ -11,7 +11,7 @@ const yesb = () => {
 
 }
 const nob = () => {
-  document.getElementById("first").innerHTML = '      <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#bridge-faq"> Push your transaction again</a><br/>  Now just wait, funds are safe and will arrive. </br></br>  48h has passed? <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswaphelp.zendesk.com/hc/en-us"> MultiSwap help</a> or <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://t.me/anyswap">MultiSwap telegram</a>   and report the issue there '
+  document.getElementById("first").innerHTML = '      <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswap.net/?tabparams=tools"> Push your transaction again</a><br/>  Now just wait, funds are safe and will arrive. </br></br>  48h has passed? <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswaphelp.zendesk.com/hc/en-us"> MultiSwap help</a> or <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://t.me/anyswap">MultiSwap telegram</a>   and report the issue there '
 
 }
 
