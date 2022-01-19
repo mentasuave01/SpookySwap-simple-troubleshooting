@@ -1,3 +1,4 @@
+
 import * as React from "react"
 import { Icon } from '@iconify/react';
 import { Link} from "gatsby"
@@ -7,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 // data
 const yesb = () => {
-  document.getElementById("first").innerHTML = '      Check token list <a class="text-blue-400" target="_blank" rel="noreferrer"   href="https://ftmscan.com/"> here</a><br/>   <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#bridge-faq"> Token format is anyTOKEN format</a><br/>   If token is there but not showing on metamask go<br/><a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#5.-view-your-bridged-token"> here</a><br/>  '
+  document.getElementById("first").innerHTML = '      Check token list <a class="text-blue-400" target="_blank" rel="noreferrer"   href="https://ftmscan.com/"> here</a><br/>   <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswap.exchange/#/pool"> Token format is anyTOKEN format</a>  <a class="text-purple-400" target="_blank" rel="noreferrer" href="https://imgur.com/a/Mte0D5h"> Instructions</a></br> If token is there but not showing on metamask go<br/><a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#5.-view-your-bridged-token"> here</a><br/>  '
 
 }
 const nob = () => {
