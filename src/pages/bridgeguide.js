@@ -4,11 +4,11 @@ import { Icon } from '@iconify/react';
 import { Link} from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-// styles
+
 
 // data
 const yesb = () => {
-  document.getElementById("first").innerHTML = ' First paste your address to check token list <a class="text-blue-400" target="_blank" rel="noreferrer"   href="https://ftmscan.com/"> here</a><br/>  <div class="flex">   <div class="border-r-4 border-black bg-white bg-opacity-30 "> Token format is anyTOKEN<div class="   ">1. Go to 	&nbsp;<a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswap.exchange/#/pool">this	&nbsp;</a> website and follow &nbsp;<a class="text-blue-400" target="_blank" rel="noreferrer" href="https://imgur.com/a/Mte0D5h"> this	&nbsp;</a> instructions</div><div class="mt-2">*Ask for fees 	 <a class="text-blue-400" target="_blank" rel="noreferrer" href="https://www.mentasuave01-tools.com/"> here	&nbsp;</a> if you need ftm to withdraw</div></div> <div class=" bg-white bg-opacity-30">   </br> If token is there but not showing on metamask go<br/><a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#5.-view-your-bridged-token"> here</a><br/></div></div> '
+  document.getElementById("first").innerHTML = ' First paste your address to heck token list <a class="text-blue-400" target="_blank" rel="noreferrer"   href="https://ftmscan.com/"> here</a><br/>  <div class="flex">   <div class="border-r-4 border-black bg-white bg-opacity-30 "> Token format is anyTOKEN<div class="   ">1. Go to 	&nbsp;<a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswap.exchange/#/pool">this	&nbsp;</a> website and follow &nbsp;<a class="text-blue-400" target="_blank" rel="noreferrer" href="https://imgur.com/a/Mte0D5h"> this	&nbsp;</a> instructions</div><div class="mt-2">*Ask for fees 	 <a class="text-blue-400" target="_blank" rel="noreferrer" href="https://www.mentasuave01-tools.com/"> here	&nbsp;</a> if you need ftm to withdraw</div></div> <div class=" bg-white bg-opacity-30">   </br> If token is there but not showing on metamask go<br/><a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#5.-view-your-bridged-token"> here</a><br/></div></div> '
 
 }
 const nob = () => {
@@ -17,8 +17,6 @@ const nob = () => {
 }
 
 
-
-// markup
 const BridgeGuide = () => {
   return (
     <main className="">
