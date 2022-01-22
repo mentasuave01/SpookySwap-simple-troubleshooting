@@ -63,16 +63,20 @@ const BridgeGuide = () => {
             Funds are safe and they will arrive, bridge can take up to 48h.<br/>
            */}
            <div className="flex gap-3 mt-10">
-            
+             
+            <div className="flex flex-col items-center justify-center">
+            YES
              <Icon  onClick={yesb}
-              className="h-16 cursor-pointer  bg-white/50 w-16 shadow-lg shadow-blue-400 rounded-xl p "
+              className="h-16 mt-1 cursor-pointer  bg-white/50 w-16 shadow-lg shadow-blue-400 rounded-xl p "
               icon="mdi:check-circle-outline" color="000000" />
-            
-            
+            </div>
+
+            <div className="flex flex-col items-center justify-center">
+              NO||NULL
             <Icon onClick={nob}
-              className="h-16 cursor-pointer bg-white/50 w-16 shadow-lg shadow-blue-400 rounded-xl p "
+              className="h-16 mt-1 cursor-pointer bg-white/50 w-16 shadow-lg shadow-blue-400 rounded-xl p "
               icon="mdi:close-outline" color="000000" />
-            
+            </div>
            </div>
               
         </div>
