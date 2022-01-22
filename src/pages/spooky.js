@@ -36,7 +36,7 @@ const Spooky = () => {
         
         
         
-        <a target="_blank" rel="noreferrer" className="flex items-center justify-center " href="https://docs.fantom.foundation/tutorials/set-up-metamask"> 
+        <a target="_blank" rel="noreferrer" className="flex items-center justify-center " href="https://imgur.com/a/jVTJ2jP"> 
         <div id="RPC" className="
         cursor-pointer
         bg-green-400

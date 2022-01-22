@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "My Gatsby Site",
+    siteUrl: "https://spookyswap-support-guide.pages.dev/",
+    title: "Spookyswap Thoubleshooting",
   },
   plugins: [
     "gatsby-plugin-image",

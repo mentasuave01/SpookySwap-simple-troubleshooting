@@ -1,3 +1,4 @@
+
 import * as React from "react"
 import { Icon } from '@iconify/react';
 import { Link} from "gatsby"
@@ -7,11 +8,11 @@ import { StaticImage } from "gatsby-plugin-image"
 
 // data
 const yesb = () => {
-  document.getElementById("first").innerHTML = '      Check token list <a class="text-blue-400" target="_blank" rel="noreferrer"   href="https://ftmscan.com/"> here</a><br/>   <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#bridge-faq"> Token format is anyTOKEN format</a><br/>   If token is there but not showing on metamask go<br/><a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#5.-view-your-bridged-token"> here</a><br/>  '
+  document.getElementById("first").innerHTML = ' First paste your address to check token list <a class="text-blue-400" target="_blank" rel="noreferrer"   href="https://ftmscan.com/"> here</a><br/>  <div class="flex">   <div class="border-r-4 border-black bg-white bg-opacity-30 "> Token format is anyTOKEN<div class="   ">1. Go to 	&nbsp;<a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswap.exchange/#/pool">this	&nbsp;</a> website and follow &nbsp;<a class="text-blue-400" target="_blank" rel="noreferrer" href="https://imgur.com/a/Mte0D5h"> this	&nbsp;</a> instructions</div><div class="mt-2">*Ask for fees 	 <a class="text-blue-400" target="_blank" rel="noreferrer" href="https://www.mentasuave01-tools.com/"> here	&nbsp;</a> if you need ftm to withdraw</div></div> <div class=" bg-white bg-opacity-30">   </br> If token is there but not showing on metamask go<br/><a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#5.-view-your-bridged-token"> here</a><br/></div></div> '
 
 }
 const nob = () => {
-  document.getElementById("first").innerHTML = '      <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://docs.spookyswap.finance/products/bridge#bridge-faq"> Push your transaction again</a><br/>  Now just wait, funds are safe and will arrive. </br></br>  48h has passed? <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswaphelp.zendesk.com/hc/en-us"> MultiSwap help</a> or <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://t.me/anyswap">MultiSwap telegram</a>   and report the issue there '
+  document.getElementById("first").innerHTML = '      <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswap.net/?tabparams=tools"> Push your transaction again</a><br/>  Now just wait, funds are safe and will arrive. </br></br>  48h has passed? <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://anyswaphelp.zendesk.com/hc/en-us"> MultiSwap help</a> or <a target="_blank" rel="noreferrer"   class="text-blue-400" href="https://t.me/anyswap">MultiSwap telegram</a>   and report the issue there '
 
 }
 
