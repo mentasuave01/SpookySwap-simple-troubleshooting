@@ -68,7 +68,7 @@ const Bridge = () => {
           icon="mdi:shoe-print" color="white" />
         </div></a>
 
-        <a target="_blank" rel="noreferrer"   className="flex items-center justify-center " href="https://www.fantom.tips"> 
+        <a target="_blank" rel="noreferrer"   className="flex items-center justify-center " href="https://www.mentasuave01-tools.com"> 
         <div id="card3" className="
         cursor-pointer
         bg-green-400
