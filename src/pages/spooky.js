@@ -68,7 +68,7 @@ const Spooky = () => {
           icon="mdi:cookie-alert" color="white" />
         </div></a>
 
-        <a target="_blank" rel="noreferrer" className="flex items-center justify-center " href="https://docs.spookyswap.finance/getting-started/faq#how-do-i-fix-pending-transactions-on-metamask"> 
+        <a target="_blank" rel="noreferrer" className="flex items-center justify-center " href="https://docs.spooky.fi/getting-started/faq#how-do-i-fix-pending-transactions-on-metamask"> 
         <div id="Slippage" className="
         cursor-pointer
         bg-green-400

@@ -52,7 +52,7 @@ const Bridge = () => {
           icon="mdi:clock-alert-outline" color="white" />
         </div></Link>
 
-        <a target="_blank" rel="noreferrer"   className="flex items-center justify-center " href="https://docs.spookyswap.finance/products/bridge#how-to-bridge"> 
+        <a target="_blank" rel="noreferrer"   className="flex items-center justify-center " href="https://docs.spooky.fi/products/bridge#how-to-bridge"> 
         <div id="card2" className="
         cursor-pointer
         bg-green-400
